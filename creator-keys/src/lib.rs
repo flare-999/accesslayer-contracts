@@ -337,7 +337,7 @@ pub enum ContractError {
     NotAHolder = 133,
     // --- Key retirement with admin-funded holder buyback at floor price (Issue #1111) ---
     /// No retirement proposal has been made for the supplied key.
-    NoRetirementProposed = 142,
+    NoRetirementProposed = 148,
     /// A retirement proposal already exists for the supplied key.
     RetirementAlreadyProposed = 143,
     /// `execute_retirement` was called before the 7-day notice window elapsed.
